@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Page Not Found</title>
+  <script>
+    // Single Page Apps for GitHub Pages or other static hosts
+    // This script takes the current URL path and redirects to the root with a path query parameter
+    // The main app will then handle showing the correct 404 page when it detects this parameter
+    (function() {
+      const path = window.location.pathname;
+      const searchParams = new URLSearchParams(window.location.search);
+      searchParams.set('path', path);
+      
+      // Redirect to the homepage with the path as a parameter
+      window.location.href = window.location.origin + 
+        (window.location.pathname.includes('/index.html') ? '/index.html' : '/') + 
+        '?' + searchParams.toString();
+    })();
+  </script>
+</head>
+<body>
+  Redirecting to homepage...
+</body>
+</html> 
