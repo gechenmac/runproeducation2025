@@ -1,0 +1,1 @@
+import{_ as c,c as e,o}from"./index-CuxJ-AY6.js";const s={},t={class:"quick-page"};function a(_,n){return o(),e("div",t,"Quick Link 1 Page")}const i=c(s,[["render",a],["__scopeId","data-v-02c1fc09"]]);export{i as default};

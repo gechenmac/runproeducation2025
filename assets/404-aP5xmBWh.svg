@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Background elements -->
+  <defs>
+    <linearGradient id="gradientBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f2f6fa" />
+      <stop offset="100%" stop-color="#e6eff8" />
+    </linearGradient>
+    <linearGradient id="gradientBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#003a66" />
+      <stop offset="100%" stop-color="#1677ff" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#gradientBg)" opacity="0.6" />
+  
+  <!-- Decorative elements -->
+  <circle cx="650" cy="100" r="80" fill="#f0f7ff" opacity="0.8" />
+  <circle cx="150" cy="500" r="100" fill="#f0f7ff" opacity="0.8" />
+  
+  <!-- Pattern dots -->
+  <g fill="#1677ff" opacity="0.1">
+    <circle cx="50" cy="50" r="4" />
+    <circle cx="100" cy="50" r="4" />
+    <circle cx="150" cy="50" r="4" />
+    <circle cx="200" cy="50" r="4" />
+    <circle cx="250" cy="50" r="4" />
+    <circle cx="50" cy="100" r="4" />
+    <circle cx="100" cy="100" r="4" />
+    <circle cx="150" cy="100" r="4" />
+    <circle cx="200" cy="100" r="4" />
+    <circle cx="250" cy="100" r="4" />
+    
+    <circle cx="550" cy="450" r="4" />
+    <circle cx="600" cy="450" r="4" />
+    <circle cx="650" cy="450" r="4" />
+    <circle cx="700" cy="450" r="4" />
+    <circle cx="750" cy="450" r="4" />
+    <circle cx="550" cy="500" r="4" />
+    <circle cx="600" cy="500" r="4" />
+    <circle cx="650" cy="500" r="4" />
+    <circle cx="700" cy="500" r="4" />
+    <circle cx="750" cy="500" r="4" />
+    <circle cx="550" cy="550" r="4" />
+    <circle cx="600" cy="550" r="4" />
+    <circle cx="650" cy="550" r="4" />
+    <circle cx="700" cy="550" r="4" />
+    <circle cx="750" cy="550" r="4" />
+  </g>
+  
+  <!-- Main illustration components -->
+  <!-- Globe -->
+  <circle cx="400" cy="300" r="120" fill="#f0f7ff" stroke="#1677ff" stroke-width="2" opacity="0.9" />
+  
+  <!-- Meridians -->
+  <ellipse cx="400" cy="300" rx="120" ry="40" fill="none" stroke="#1677ff" stroke-width="1" opacity="0.5" />
+  <ellipse cx="400" cy="300" rx="90" ry="30" fill="none" stroke="#1677ff" stroke-width="1" opacity="0.5" />
+  <ellipse cx="400" cy="300" rx="60" ry="20" fill="none" stroke="#1677ff" stroke-width="1" opacity="0.5" />
+  
+  <!-- Vertical meridians -->
+  <path d="M400,180 Q400,300 400,420" fill="none" stroke="#1677ff" stroke-width="1" opacity="0.5" />
+  <path d="M280,300 Q400,300 520,300" fill="none" stroke="#1677ff" stroke-width="1" opacity="0.5" />
+  <path d="M310,210 Q400,300 490,390" fill="none" stroke="#1677ff" stroke-width="1" opacity="0.5" />
+  <path d="M310,390 Q400,300 490,210" fill="none" stroke="#1677ff" stroke-width="1" opacity="0.5" />
+  
+  <!-- Error message elements -->
+  <path d="M320,150 L480,150 L480,190 L320,190 Z" fill="url(#gradientBlue)" rx="10" ry="10" />
+  <text x="400" y="180" font-family="Arial" font-size="28" font-weight="bold" fill="white" text-anchor="middle">ERROR 404</text>
+  
+  <!-- Disconnected path -->
+  <path d="M320,310 Q330,300 340,310 Q350,320 360,310 Q370,300 380,310 Q390,320 400,310 Q410,300 420,310 L420,350" fill="none" stroke="#003a66" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Cartoon compass -->
+  <circle cx="480" cy="350" r="30" fill="white" stroke="#1677ff" stroke-width="2" />
+  <path d="M480,320 L480,380" fill="none" stroke="#1677ff" stroke-width="2" />
+  <path d="M450,350 L510,350" fill="none" stroke="#1677ff" stroke-width="2" />
+  <path d="M480,350 L495,335" fill="none" stroke="#003a66" stroke-width="3" stroke-linecap="round" />
+  <path d="M480,350 L465,365" fill="none" stroke="#ff4d4f" stroke-width="3" stroke-linecap="round" />
+  <circle cx="480" cy="350" r="5" fill="#1677ff" />
+  
+  <!-- Lost character -->
+  <circle cx="350" cy="380" r="20" fill="#003a66" /> <!-- Head -->
+  <path d="M350,400 L350,440" fill="none" stroke="#003a66" stroke-width="8" stroke-linecap="round" /> <!-- Body -->
+  <path d="M350,410 L330,430" fill="none" stroke="#003a66" stroke-width="5" stroke-linecap="round" /> <!-- Left arm -->
+  <path d="M350,410 L370,430" fill="none" stroke="#003a66" stroke-width="5" stroke-linecap="round" /> <!-- Right arm -->
+  <path d="M350,440 L335,470" fill="none" stroke="#003a66" stroke-width="5" stroke-linecap="round" /> <!-- Left leg -->
+  <path d="M350,440 L365,470" fill="none" stroke="#003a66" stroke-width="5" stroke-linecap="round" /> <!-- Right leg -->
+  
+  <!-- Question mark -->
+  <text x="380" y="390" font-family="Arial" font-size="40" font-weight="bold" fill="#1677ff" text-anchor="middle">?</text>
+  
+  <!-- Bottom container -->
+  <rect x="250" y="480" width="300" height="20" fill="#1677ff" rx="10" ry="10" opacity="0.8" />
+</svg> 
