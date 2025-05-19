@@ -1,0 +1,1 @@
+import{_ as c,c as e,o as a}from"./index-C10seGdN.js";const o={},s={class:"quick-page"};function t(_,n){return a(),e("div",s,"Quick Link 5 Page")}const i=c(o,[["render",t],["__scopeId","data-v-70afc3ae"]]);export{i as default};
