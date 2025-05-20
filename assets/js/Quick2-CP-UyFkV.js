@@ -1,1 +1,0 @@
-import{_ as s}from"./index-BTCQPZav.js";import{_ as a,$ as o}from"./vendor-DxZSb_3u.js";import"./antd-D5XDBrZD.js";import"./gsap-3GKaO8XO.js";const r={class:"quick-page"};const t=s({},[["render",function(s,t){return o(),a("div",r,"Quick Link 2 Page")}],["__scopeId","data-v-bed86678"]]);export{t as default};

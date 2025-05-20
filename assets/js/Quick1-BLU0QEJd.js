@@ -1,1 +1,0 @@
-import{_ as s}from"./index-BTCQPZav.js";import{_ as a,$ as o}from"./vendor-DxZSb_3u.js";import"./antd-D5XDBrZD.js";import"./gsap-3GKaO8XO.js";const r={class:"quick-page"};const t=s({},[["render",function(s,t){return o(),a("div",r,"Quick Link 1 Page")}],["__scopeId","data-v-02c1fc09"]]);export{t as default};
