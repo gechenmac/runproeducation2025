@@ -4,18 +4,30 @@
   <meta charset="utf-8">
   <title>Page Not Found</title>
   <script>
-    // Single Page Apps for GitHub Pages or other static hosts
+    // Single Page Apps for GitHub Pages
     // This script takes the current URL path and redirects to the root with a path query parameter
     // The main app will then handle showing the correct 404 page when it detects this parameter
     (function() {
-      const path = window.location.pathname;
+      // GitHub Pages deployment path prefix (your repository name)
+      const repoName = 'runproeducation2025';
+      
+      // Get the current path, removing the repository name if present
+      let path = window.location.pathname;
+      if (path.indexOf('/' + repoName + '/') === 0) {
+        path = path.substr(repoName.length + 1);
+      }
+      
       const searchParams = new URLSearchParams(window.location.search);
       searchParams.set('path', path);
       
-      // Redirect to the homepage with the path as a parameter
-      window.location.href = window.location.origin + 
-        (window.location.pathname.includes('/index.html') ? '/index.html' : '/') + 
+      // Build the correct redirect URL including the repository name for GitHub Pages
+      const redirectURL = window.location.origin + 
+        (window.location.pathname.includes('/index.html') 
+          ? '/' + repoName + '/index.html' 
+          : '/' + repoName + '/') + 
         '?' + searchParams.toString();
+      
+      window.location.href = redirectURL;
     })();
   </script>
 </head>

@@ -3,23 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="icon" href="/runproeducation2025/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/runproeducation2025/favicon.ico" type="image/x-icon">
-    <link rel="icon" type="/runproeducation2025/image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="/runproeducation2025/image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/runproeducation2025/apple-touch-icon.png">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
 
-    <link rel="manifest" href="/runproeducation2025/site.webmanifest">
+    <link rel="manifest" href="./site.webmanifest">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-    <title>GOLDENHALLLAWYERS</title>
-    <script type="module" crossorigin src="/runproeducation2025/assets/js/index-Dr6n2Yer.js"></script>
+    <title>RUN PRO EDUCATION</title>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const path = urlParams.get('path');
+        
+        if (path) {
+          const newUrl = window.location.pathname + 
+            (urlParams.toString() === 'path=' + path ? '' : 
+              '?' + urlParams.toString().replace(/path=[^&]+&?/, '').replace(/&$/, ''));
+          window.history.replaceState({}, document.title, newUrl);
+          
+          window.__INITIAL_PATH__ = path;
+        }
+      });
+    </script>
+    <script type="module" crossorigin src="/runproeducation2025/assets/js/index-C3-5VNHy.js"></script>
     <link rel="modulepreload" crossorigin href="/runproeducation2025/assets/js/vendor-CSDmWKAg.js">
     <link rel="modulepreload" crossorigin href="/runproeducation2025/assets/js/antd-UiPV-AFM.js">
     <link rel="modulepreload" crossorigin href="/runproeducation2025/assets/js/gsap-3GKaO8XO.js">
-    <link rel="stylesheet" crossorigin href="/runproeducation2025/assets/index-DUyZe_IN.css">
+    <link rel="stylesheet" crossorigin href="/runproeducation2025/assets/index-CUKnGmRw.css">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app"></div>
   </body>
 </html> 
