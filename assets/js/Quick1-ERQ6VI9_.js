@@ -1,0 +1,1 @@
+import{_ as s}from"./index-DM50lhFK.js";import{_ as a,$ as o}from"./vendor-D9nIYA3N.js";import"./antd-DxotHSLM.js";import"./gsap-3GKaO8XO.js";const r={class:"quick-page"};const t=s({},[["render",function(s,t){return o(),a("div",r,"Quick Link 1 Page")}],["__scopeId","data-v-02c1fc09"]]);export{t as default};
