@@ -12,30 +12,30 @@
     <link rel="manifest" href="./site.webmanifest">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-    <title>RUN PRO EDUCATION</title>
-    
+    <title>RUNPRO EDUCATION</title>
+
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         const urlParams = new URLSearchParams(window.location.search);
         const path = urlParams.get('path');
-        
+
         if (path) {
-          const newUrl = window.location.pathname + 
-            (urlParams.toString() === 'path=' + path ? '' : 
+          const newUrl = window.location.pathname +
+            (urlParams.toString() === 'path=' + path ? '' :
               '?' + urlParams.toString().replace(/path=[^&]+&?/, '').replace(/&$/, ''));
           window.history.replaceState({}, document.title, newUrl);
-          
+
           window.__INITIAL_PATH__ = path;
         }
       });
     </script>
-    <script type="module" crossorigin src="/runproeducation2025/assets/js/index-Dfmen56X.js"></script>
-    <link rel="modulepreload" crossorigin href="/runproeducation2025/assets/js/vendor-DxZSb_3u.js">
-    <link rel="modulepreload" crossorigin href="/runproeducation2025/assets/js/antd-D5XDBrZD.js">
-    <link rel="modulepreload" crossorigin href="/runproeducation2025/assets/js/gsap-3GKaO8XO.js">
-    <link rel="stylesheet" crossorigin href="/runproeducation2025/assets/index-DhtXZDTf.css">
+    <script type="module" crossorigin src="/assets/js/index-BT60wIGi.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/js/vendor-BGXXuiod.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/antd-BpKAPqU5.js">
+    <link rel="modulepreload" crossorigin href="/assets/js/gsap-Cyf3JaYP.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-Cbp5GryT.css">
   </head>
   <body>
     <div id="app"></div>
   </body>
-</html> 
+</html>
